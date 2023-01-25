@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+/* FONTS
+font-family: 'Comfortaa', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+*/
+
+
+body {
+	font-family: 'Comfortaa', sans-serif;
+	scroll-behavior: smooth;
+}
+
+.logo {
+	width: 10em;
+	margin: 1em;
+	max-width: 100%;
+}
+
+h1 {
+	font-family: 'Comfortaa', sans-serif;
+	font-size: 2.2em;
+	margin-top: 0;
+	padding-bottom: 25px;
+	text-align: left;
+	width: 100%;
+}
+
+.header-btn {
+	color: #060625;
+	border: 1px solid #060625;
+}
+
+.btn {
+/*	margin-top: 1em;	*/
+}
+
+.pdf {
+	width: 400px;
+	max-width: 100%;
+}
+
+ul {
+	list-style: none;
+	padding-left: 1.25em;
+}
+
+li {
+	display: inline-block;
+	margin-bottom: 15px;
+}
+
+.bi-asterisk {
+	color: #02b2ed;
+}
+
+/* bullet point options:
+✔
+*/
+
+.form-container {
+	color: #fff;
+	padding: 1em 1em;
+	background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 991.98px) {
+	.form-container {
+		padding: 0em;
+	}
+}
+
+select, input, textarea, button {
+	font-family: 'Comfortaa', sans-serif;
+	background-color: hsla(255, 100%, 100%,0.5);
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  box-sizing: border-box;
+  zoom: 1.5;
+  width: 15px;
+  height: 15px;
+  margin: 0 10px 0 0;
+}
+
+#feedbackSubmit {
+	width: 100%;
+}
+
+#feedbackSubmit, #headerSubmit {
+	border: 1px solid #fff;
+	background-color: #fff;
+	color: #060625;
+}
+
+#feedbackSubmit:hover, #headerSubmit:hover {
+	color: #fff;
+	background-color: #060625;
+	border: 1px solid #060625;
+}
+
+.pp {
+	margin-top: 1em;
+}
+
+a {
+	color: #fff;
+}
+
+footer {
+	margin: 1.5em;
+}
+
+@media (max-width: 991.98px) {
+	footer br {
+		display: none;
+	}
+}
